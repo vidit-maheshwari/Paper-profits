@@ -1,0 +1,17 @@
+.card-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Limit to 2 lines */
+  -webkit-box-orient: vertical;
+  white-space: nowrap; /* Prevent wrapping */
+  width: 120px; /* Adjust width as needed */
+}
+
+.card-container {
+  transition: transform 0.3s ease; /* Add transition for smooth animation */
+}
+
+.card-container:hover {
+  transform: scale(1.05); /* Increase size on hover */
+}
