@@ -180,7 +180,7 @@ const Quiz = () => {
     setTotalScore(calculatedScore);
     setShowFinalScore(true);
 
-    // Routing based on total score
+  
     if (calculatedScore >= 12 && calculatedScore <= 20) {
       navigate('/src/components/Trade/TradeLayout.jsx');
     } else if (calculatedScore >= 21 && calculatedScore <= 32) {
